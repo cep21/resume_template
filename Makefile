@@ -10,7 +10,7 @@ endif
 
 # Build a PDF from the latex file
 build: resume.tex
-	pdflatex -halt-on-error -interaction=nonstopmode esume.tex
+	pdflatex -halt-on-error -interaction=nonstopmode resume.tex
 
 # Remove artifacts of the build process
 clean:
