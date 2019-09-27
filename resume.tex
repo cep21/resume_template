@@ -1,0 +1,107 @@
+%-------------------------
+% Resume in Latex
+% Author : Jack Lindamood (Heavily forked from resume by Sourabh Bajaj (MIT))
+% License : MIT
+%
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage{bookmark}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+\vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule{} \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+\item\small{
+\textbf{#1}{: #2 \vspace{-2pt}}
+}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}\item
+\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small#3} & \textit{\small #4} \\
+\end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\Large John Doe} & Email: \href{mailto:johndoe@gmail.com}{johndoe@gmail.com}\\
+\href{https://github.com/johndoe}{https://github.com/johndoe} & Mobile: \href{tel:15555555555}{1-555-555-5555} \\
+\end{tabular*}
+
+\section{Goal}
+A job as a software engineer.
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart{}
+
+\resumeSubheading{Company Inc}{San Francisco, CA}{Software Engineer}{Jun 2016 - Aug 2019}
+\resumeItemListStart{}
+\resumeItem{Widget system}
+{A system to make widgets}
+\resumeItem{Haber system}
+{A system to make hats}
+\resumeItemListEnd{}
+
+\resumeSubheading{Another Company Inc}{San Mateo, CA}{Software Engineer}{Jun 2013 - Apr 2016}
+\resumeItemListStart{}
+\resumeItem{Ingest}
+\resumeItemListEnd{}
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart{}
+\resumeSubheading{The University of Something}{Something, TX}{Master of Science (MS), Computer Science}{2006 - 2008}
+\resumeSubHeadingListEnd{}
+
+%-----------PROJECTS-----------------
+\section{Extra}
+\resumeSubHeadingListStart{}
+\resumeSubItem{Personal Technical blog}
+{https://example.com}
+\resumeSubItem{Personal GitHub}
+{https://github.com/johndoe}
+\resumeSubItem{First place special awards inc}
+{First prize in special contest}
+\resumeSubHeadingListEnd{}
+
+%-------------------------------------------
+\end{document}
