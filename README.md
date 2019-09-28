@@ -23,10 +23,13 @@ public
 so you can easily regenerate the resume from nothing.
 * CircleCI: Generate your PDF in a clean environment and store it as a build artifact.
 
-# Setting up CircleCI
+# How to use this template.
 
-You can sign up for [CircleCI](https://circleci.com) for free with your github account.  You also can host and build
-your resume privately for free.
+Click the green "Use this template" button on Github to create your own copy of this repository.  You can sign up
+for [CircleCI](https://circleci.com) for free with your github account.  You also can host and build your resume
+privately for free.
+
+If you want to keep your resume private, change your repository's visibility to private in Github.
 
 # Example output
 
