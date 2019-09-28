@@ -12,6 +12,8 @@ also optionally keep your resume private.
 
 # Why use this template
 
+* Private: You can keep your resume in the cloud but still private if you don't want to tell the world your
+life story or your phone number.
 * Latex: Creates pretty typography.  Consistent output format.  Focus on content over style.
 * PDF: Universal document sharing format, generated with pdflatex
 * git: Track changes to your resume over time and revert to previous versions
